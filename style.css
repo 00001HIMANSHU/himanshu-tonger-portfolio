@@ -516,3 +516,88 @@ word-break:break-word;
 color:white;
 
 }
+/*==========================
+      RESEARCH
+==========================*/
+
+.research-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+gap:30px;
+
+margin-top:40px;
+
+}
+
+.research-card{
+
+background:#162133;
+
+padding:35px;
+
+border-radius:18px;
+
+text-align:center;
+
+transition:.35s;
+
+border:1px solid rgba(255,255,255,.08);
+
+}
+
+.research-card:hover{
+
+transform:translateY(-10px);
+
+border-color:#3b82f6;
+
+box-shadow:0 20px 40px rgba(0,0,0,.30);
+
+}
+
+.research-icon{
+
+font-size:55px;
+
+margin-bottom:20px;
+
+}
+
+.research-card h3{
+
+font-size:1.4rem;
+
+margin-bottom:15px;
+
+color:white;
+
+}
+
+.research-card p{
+
+color:#cbd5e1;
+
+margin-bottom:15px;
+
+line-height:1.8;
+
+}
+
+.research-card span{
+
+display:inline-block;
+
+background:#3b82f6;
+
+padding:8px 18px;
+
+border-radius:50px;
+
+font-size:.9rem;
+
+color:white;
+
+}
