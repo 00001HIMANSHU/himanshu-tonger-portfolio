@@ -449,4 +449,70 @@ font-size:15px;
 
 }
 
+/*==========================
+      CONTACT
+===========================*/
 
+.contact-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+gap:30px;
+
+margin-top:45px;
+
+}
+
+.contact-card{
+
+background:#162133;
+
+padding:30px;
+
+border-radius:18px;
+
+text-align:center;
+
+transition:.35s;
+
+border:1px solid rgba(255,255,255,.08);
+
+}
+
+.contact-card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 20px 40px rgba(0,0,0,.30);
+
+border-color:#3b82f6;
+
+}
+
+.contact-card h3{
+
+margin-bottom:20px;
+
+font-size:1.3rem;
+
+color:white;
+
+}
+
+.contact-card a{
+
+color:#38bdf8;
+
+font-weight:600;
+
+word-break:break-word;
+
+}
+
+.contact-card a:hover{
+
+color:white;
+
+}
