@@ -601,3 +601,90 @@ font-size:.9rem;
 color:white;
 
 }
+/*==========================
+        FOOTER
+==========================*/
+
+.footer{
+
+background:#08111f;
+
+margin-top:80px;
+
+padding:60px 10% 25px;
+
+}
+
+.footer-container{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+gap:40px;
+
+}
+
+.footer-column h3{
+
+color:white;
+
+margin-bottom:20px;
+
+font-size:1.3rem;
+
+}
+
+.footer-column p{
+
+color:#cbd5e1;
+
+line-height:1.8;
+
+margin-bottom:10px;
+
+}
+
+.footer-column ul{
+
+list-style:none;
+
+padding:0;
+
+}
+
+.footer-column ul li{
+
+margin-bottom:12px;
+
+}
+
+.footer-column a{
+
+color:#38bdf8;
+
+transition:.3s;
+
+}
+
+.footer-column a:hover{
+
+color:white;
+
+padding-left:5px;
+
+}
+
+.footer-bottom{
+
+margin-top:40px;
+
+padding-top:25px;
+
+border-top:1px solid rgba(255,255,255,.08);
+
+text-align:center;
+
+color:#94a3b8;
+
+}
