@@ -94,46 +94,83 @@
 
     <script type="application/ld+json">
 {
-"@context":"https://schema.org",
-"@type":"Person",
-"@id":"https://00001himanshu.github.io/himanshu-tonger-portfolio/#person",
+  "@type": "Person",
+  "@id": "https://00001himanshu.github.io/himanshu-tonger-portfolio/#person",
 
-"name":"Himanshu Tonger",
+  "name": "Himanshu Tonger",
 
-"url":"https://00001himanshu.github.io/himanshu-tonger-portfolio/",
+  "alternateName": "HIMANSHU TONGER",
 
-"image":"https://00001himanshu.github.io/himanshu-tonger-portfolio/profile.jpeg",
+  "url": "https://00001himanshu.github.io/himanshu-tonger-portfolio/",
 
-"description":"B.Tech Computer Science Engineering student, AI and Software Developer.",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://00001himanshu.github.io/himanshu-tonger-portfolio/profile.jpeg"
+  },
 
-"nationality":"Indian",
+  "description": "B.Tech Computer Science Engineering Graduate, AI & Software Developer, Founder of HT Software Solutions.",
 
-"jobTitle":"AI and Software Developer",
+  "jobTitle": "AI & Software Developer",
 
-"alumniOf":{
-"@type":"CollegeOrUniversity",
-"name":"Mangalmay Institute of Engineering and Technology"
-},
+  "nationality": {
+    "@type": "Country",
+    "name": "India"
+  },
 
-"knowsAbout":[
-"Artificial Intelligence",
-"Machine Learning",
-"Python",
-"Java",
-"Flask",
-"JavaScript",
-"HTML",
-"CSS",
-"Software Development"
-],
+  "knowsLanguage": [
+    "English",
+    "Hindi"
+  ],
 
-"sameAs":[
-"https://www.wikidata.org/wiki/Q140650287",
-"https://github.com/00001HIMANSHU",
-"https://www.linkedin.com/in/himanshu-tonger-963310222/",
-"https://medium.com/@himanshutonger0001",
-"https://www.youtube.com/@HIMANSHU_TONGER_1"
-]
+  "sameAs": [
+
+    "https://www.linkedin.com/in/himanshu-tonger-963310222/",
+
+    "https://github.com/00001HIMANSHU",
+
+    "https://medium.com/@himanshutonger0001",
+
+    "https://www.youtube.com/@HIMANSHU_TONGER_1",
+
+    "https://www.wikidata.org/wiki/Q140650287"
+
+  ],
+
+  "alumniOf": {
+
+    "@type": "CollegeOrUniversity",
+
+    "name": "Mangalmay Institute of Engineering and Technology"
+
+  },
+
+  "worksFor": {
+
+    "@id":"https://00001himanshu.github.io/HT-Software-Solutions/#organization"
+
+  },
+
+  "knowsAbout":[
+
+    "Artificial Intelligence",
+
+    "Machine Learning",
+
+    "Python",
+
+    "JavaScript",
+
+    "Flask",
+
+    "Software Engineering",
+
+    "Web Development",
+
+    "SEO",
+
+    "GitHub Pages"
+
+  ]
 }
 </script>
 
@@ -197,18 +234,27 @@
 },
 
 {
-"@type":"Organization",
-"@id":"https://00001himanshu.github.io/HT-Software-Solutions/#organization",
-"name":"HT Software Solutions",
-"url":"https://00001himanshu.github.io/HT-Software-Solutions/",
-"logo":"https://00001himanshu.github.io/HT-Software-Solutions/logo.png",
-"founder":{
-"@id":"https://00001himanshu.github.io/himanshu-tonger-portfolio/#person"
-},
-"sameAs":[
-"https://www.linkedin.com/in/himanshu-tonger-963310222/",
-"https://github.com/00001HIMANSHU"
-]
+  "@type":"Organization",
+
+  "@id":"https://00001himanshu.github.io/HT-Software-Solutions/#organization",
+
+  "name":"HT Software Solutions",
+
+  "url":"https://00001himanshu.github.io/HT-Software-Solutions/",
+
+  "founder":{
+
+      "@id":"https://00001himanshu.github.io/himanshu-tonger-portfolio/#person"
+
+  },
+
+  "sameAs":[
+
+      "https://github.com/00001HIMANSHU",
+
+      "https://www.linkedin.com/in/himanshu-tonger-963310222/"
+
+  ]
 },
 
 {
@@ -295,8 +341,14 @@
 
     <div class="hero-image">
 
-        <img src="profile.jpeg"
-             alt="Himanshu Tonger">
+<img
+    src="profile.jpeg"
+    alt="Himanshu Tonger - AI & Software Developer"
+    class="profile-img"
+    width="300"
+    height="300"
+    loading="eager"
+    fetchpriority="high">
 
     </div>
 
