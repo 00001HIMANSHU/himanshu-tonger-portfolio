@@ -1,0 +1,43 @@
+# Himanshu Tonger Portfolio
+
+Official portfolio of Himanshu Tonger.
+
+Topics
+
+Artificial Intelligence
+
+Software Development
+
+Python
+
+Machine Learning
+
+JavaScript
+
+Flask
+
+Resourceful Pedagogy System
+
+FRIDAY AI Assistant
+
+HT Software Solutions
+
+Official Links
+
+Portfolio:
+https://00001himanshu.github.io/himanshu-tonger-portfolio/
+
+GitHub:
+https://github.com/00001HIMANSHU
+
+LinkedIn:
+https://www.linkedin.com/in/himanshu-tonger-963310222/
+
+Medium:
+https://medium.com/@himanshutonger0001
+
+YouTube:
+https://www.youtube.com/@HIMANSHU_TONGER_1
+
+Wikidata:
+https://www.wikidata.org/wiki/Q140650287
