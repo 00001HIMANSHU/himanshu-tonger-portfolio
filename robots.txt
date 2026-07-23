@@ -1,0 +1,7 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://00001himanshu.github.io/himanshu-tonger-portfolio/sitemap.xml
+
+Host: 00001himanshu.github.io
