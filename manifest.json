@@ -1,0 +1,30 @@
+{
+"name":"Himanshu Tonger Portfolio",
+
+"short_name":"Portfolio",
+
+"description":"Official Portfolio of Himanshu Tonger",
+
+"start_url":"/himanshu-tonger-portfolio/",
+
+"display":"standalone",
+
+"background_color":"#0f172a",
+
+"theme_color":"#0f172a",
+
+"icons":[
+
+{
+
+"src":"profile.jpeg",
+
+"sizes":"512x512",
+
+"type":"image/jpeg"
+
+}
+
+]
+
+}
