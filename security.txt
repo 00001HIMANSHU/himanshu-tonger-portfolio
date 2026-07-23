@@ -1,0 +1,12 @@
+Contact: mailto:himanshutonger0001@gmail.com
+
+Preferred-Languages: en
+
+Canonical:
+https://00001himanshu.github.io/himanshu-tonger-portfolio/
+
+Policy:
+https://00001himanshu.github.io/himanshu-tonger-portfolio/
+
+Expires:
+2027-12-31T23:59:59Z
